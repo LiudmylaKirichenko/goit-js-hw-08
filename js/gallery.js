@@ -109,7 +109,7 @@ gallery.addEventListener("click", (event) => {
 });
 
 function openModal(image) {
-  const instance = basicLightbox.create(
+  instance = basicLightbox.create(
     `
     <div class="modal">
       <img src="${image}" />
